@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="source/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="source/css/style.css">
+  <title>Logika Enkripsi</title>
+</head>
+<body>
+
+<div class="body">
+
+  <section class="menu-nav">
+    <nav>
+      <div class="container py-3">
+        <h1>Enkripsi <br><span>Logika Matematika</span></h1>
+      </div>
+    </nav>
+  </section>
+
+  <section class="steps">
+    <div class="container">
+      <div class="step-pack">
+        <div class="row">
+          <div class="col">
+            <div class="step text-center active" id="step1">
+              <h3>Memasukkan Kata</h3>
+            </div>
+          </div>
+          <div class="col">
+            <div class="step text-center" id="step2">
+              <h3>Memasukkan Jumlah Tambahan</h3>
+            </div>
+          </div>
+          <div class="col">
+            <div class="step text-center" id="step3">
+              <h3>Selesai</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="main">
+    <div class="container">
+      <div class="box-form mt-5" id="box-form1">
+        <h1>Masukkan Kata Atau Kalimat</h1>
+        <textarea class="input-text" required id="input-text"></textarea>
+        <div class="next-button">
+          <button class="next" id="next1">Lanjut</button>
+        </div>
+      </div>
+      <div class="box-form mt-5" id="box-form2">
+        <h1>Masukkan Jumlah Tambahan</h1>
+        <input type="number" required class="input-plus" id="input-plus">
+        <div class="next-button">
+          <button class="next" id="submit">Enkripsi</button>
+        </div>
+      </div>
+      <div class="box-form mt-5" id="box-form3">
+        <h1>Hasil</h1>
+        <p id="result"></p>
+        
+        <div class="description">
+          <h4>Penjelasan</h4>
+          <ul id="desc">
+          </ul>
+        </div>
+        <hr noshade="">
+        <div class="next-button">
+          <button class="next danger" id="reset">Reset</button> 
+        </div> 
+      </div>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <h6>Created By. <a href="https://hdyt007.github.io/" target="_blank">Hidayat</a> 2022</h6>
+</footer>
+
+
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="source/js/jQuery.js"></script>
+  <script src="source/js/character.js"></script>
+  <script src="source/js/script.js"></script>
+  
+  <script src="source/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
